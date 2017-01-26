@@ -1,0 +1,56 @@
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 10 auto;
+}
+
+nav{
+  height: 80px;
+  font-family: 'Josefin Sans', sans-serif;
+  box-shadow: 1px 8px 10px #4e342e;
+}
+.nav-wrapper{
+  padding-top: 15px;
+  padding-left: 40px;
+}
+#logo{
+  width: 50px;
+  height: 45px;
+}
+.cuadrito{
+  width: 150px;
+}
+.menu{
+  padding-right: 10%;
+}
+
+.conte-fut{
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+.button-collapse{
+  position: relative;
+  left: 80%;
+}
+.active{
+  background-color: #80cbc4;
+}
+.card-back{
+ background-color: rgba(237, 248, 247, 0.4);
+}
+.imagen-fondo{
+  font-family: 'Amaranth', sans-serif;
+}
+
+.renglon{
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.h{
+  font-size: 80px;
+}
