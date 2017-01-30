@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
       $('.carousel').carousel({
-        duration: 100,
+        duration: 50,
         indicators: true
       });
     });
