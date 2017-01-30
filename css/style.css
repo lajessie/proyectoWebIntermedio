@@ -44,7 +44,7 @@ nav{
  background-color: rgba(237, 248, 247, 0.4);
 }
 .imagen-fondo{
-  font-family: 'Amaranth', sans-serif;
+  font-family: 'Patua One', cursive;
 }
 
 .renglon{
@@ -53,4 +53,34 @@ nav{
 }
 .h{
   font-size: 80px;
+}
+.linea{
+  background-color: #006064;
+  width: 100%;
+  height: 1px;
+  border-radius: 200px;
+  box-shadow: 5px 3px 8px #4e342e;
+}
+.pie{
+  width: 100%;
+  height: 2%;
+  background-color: gray;
+  position: relative;
+  top: 80%;
+}
+
+.letra{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.letrac{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+}
+.letra-info{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+}
+.tarjeta-info{
+  box-shadow: 1px 8px 10px #a1887f;
+  background-color: rgba(128, 203, 196,.6);
 }

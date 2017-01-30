@@ -1,4 +1,10 @@
-$('.carousel.carousel-slider').carousel({full_width: true});
+
+$(document).ready(function(){
+      $('.carousel').carousel({
+        duration: 100,
+        indicators: true
+      });
+    });
 
 
 $(document).ready(function(){
