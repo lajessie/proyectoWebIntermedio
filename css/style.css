@@ -14,6 +14,9 @@ nav{
   font-family: 'Josefin Sans', sans-serif;
   box-shadow: 1px 8px 10px #4e342e;
 }
+.marca{
+  font-size: 20px;
+}
 .nav-wrapper{
   padding-top: 15px;
   padding-left: 40px;
@@ -87,7 +90,7 @@ nav{
 
 
 .animacion{
-  width: 100px;
+  width: 120px;
   height: 80px;
   background: #4db6ac;
   animation-name: animacion;
@@ -103,3 +106,21 @@ to {background-color:pink;}*/
 10% {background-color: #a1887f;}
 70% {background-color: #4db6ac; width: 200px;}
 }
+
+header, main, footer {
+      padding-left: 300px;
+    }
+
+    @media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+      }
+    }
+
+
+
+    @media (max-width: 800px){
+      .slo{
+        font-size: 34px;
+      }
+    }
