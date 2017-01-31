@@ -1,9 +1,6 @@
 
 $(document).ready(function(){
-      $('.carousel').carousel({
-        duration: 50,
-        indicators: true
-      });
+      $('.carousel').carousel();
     });
 
 

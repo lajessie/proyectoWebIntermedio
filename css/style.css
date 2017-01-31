@@ -84,3 +84,22 @@ nav{
   box-shadow: 1px 8px 10px #a1887f;
   background-color: rgba(128, 203, 196,.6);
 }
+
+
+.animacion{
+  width: 100px;
+  height: 80px;
+  background: #4db6ac;
+  animation-name: animacion;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+.animacion:hover{
+  box-shadow: 5px 5px 5px #bcaaa4;
+}
+@keyframes animacion {
+/*from {background-color: blue;}
+to {background-color:pink;}*/
+10% {background-color: #a1887f;}
+70% {background-color: #4db6ac; width: 200px;}
+}
